@@ -1,0 +1,48 @@
+:root{
+	--primary-color:#ffb31a;
+	--text-color:#868686;
+	--white-color:#fff;
+	
+}
+.btn{
+	min-width: 90px;
+	min-height: 34px;
+	background-color: white;
+	color: var(--text-color);
+	padding: 25px 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.btn-primary{
+	background-color: var(--primary-color);
+	color:#141414;
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@keyframes grow{
+	from{
+		transform:scale(0.7) ;
+	}
+	to{
+		transform:scale(1) ;
+	}
+}
+@keyframes growth{
+	from{
+		transform:scale(1) ;
+	}
+	to{
+		transform:scale(1.1) ;
+	}
+}
